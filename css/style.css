@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	background-color: #76E2E9;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.nav{
+	display: flex;
+	margin: 0 auto;
+	padding: 115px;
+}
+
+.lft{
+	flex-basis: 50%;
+	background-color: #3686BD;
+}
+
+.rgt{
+	flex-basis: 50%;
+	background-color: white;
+}
+
+.box{
+	border-radius: 5px;
+}
+
+.lft h2{
+	padding: 30px;
+    color: white;
+    text-transform: uppercase;
+   	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.lft p{
+	padding: 6px;
+    padding-left: 30px;
+    color: #93C2DF;
+}
+
+.lft button{
+	margin: 30px;
+    border: none;
+    border-radius: 5px 0 5px 0;
+    padding: 14px;
+    font-weight: 600;
+    width: 170px;
+    transition: 0.5s;
+}
+
+.lft button:hover{
+	background-color: red;
+	color: white;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.rgt h2{
+	padding: 20px;
+    color: #3E84B6;
+    text-transform: uppercase;
+   	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.in1{
+	display: flex;
+}
+
+.in2{
+	flex-basis: 50%;
+}
+
+.emm{
+	display: block;
+    width: 90%;
+    height: 25px;
+}
+
+.pass{
+	display: flex;
+}
+
+.pass1{
+	flex-basis: 50%;
+}
+
+.in1{
+	padding-top: 30px;
+    padding-left: 20px;
+}
+
+.em{
+	padding-top: 12px;
+    padding-left: 20px;
+}
+
+.pass{
+	padding-top: 12px;
+    padding-left: 20px;
+}
+
+.rgt a{
+	color: #709CB8;
+}
+
+.chk{
+	padding-top: 12px;
+    padding-left: 20px;
+}
+
+.hgt{
+	height: 25px;
+}
+
+.rgt button{
+	margin: 30px;
+    border: none;
+    border-radius: 5px 0 5px 0;
+    padding: 14px;
+    font-weight: 600;
+    width: 170px;
+    transition: 0.5s;
+    background-color: #3686BD;
+    color: white;
+}
+
+.rgt button:hover{
+	background-color: red;
+	color: white;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+input{
+	border: none;
+	outline: none;
+	border-style: inset;
+}
